@@ -1,0 +1,41 @@
+{% extends 'projects_app/base.html' %}
+{% block bug %}
+    <div class="container">
+        <h1 class="display-4 project-title">Project: </h1>
+        <h1 class="display-4 project-name">{{project.name}}</h1>
+        <table class="table mt-5"> 
+            <thead>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Priority</th>
+                <th scope="col">State</th>
+                <th scope="col"></th>
+            </thead>
+            <tbody>
+                {% for bug in bugs_list %}
+
+                    <tr class="bug-row">
+                        <th scope="row"> {{forloop.counter}} </th>
+                        <td>{{bug.name}}</td>
+                        <td>{{bug.desc}}</td>
+                        <td>{{bug.get_priority_display}}</td>
+                        <td>{{bug.get_state_display}}</td>
+                        <td>
+                            <a href=" {% url 'bug_delete' project.id bug.id %} "title="Delete Item">
+                                <span class="material-icons delete-icon">
+                                    delete
+                                </span>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="flex-container">
+            <button type="button" id="add-project" class="my-2 btn btn-outline-primary" onclick="openbugform(project.id)">add bug</button>
+            
+        </div>
+    </div>
+{% endblock %}
+
