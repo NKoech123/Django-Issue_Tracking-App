@@ -13,10 +13,10 @@ class URLTests(TestCase):
         print(resolve(url))
         
     
-    def test_testbug_formURL(self):
+    def test_testbug_addURL(self):
         response=self.client.get('/')
         self.assertEqual(response.status_code,200) 
-        url=reverse('bug_form')
+        url=reverse('bug_add')
         self.assertEquals(resolve(url).func, bug_add)
         print(resolve(url)) 
 

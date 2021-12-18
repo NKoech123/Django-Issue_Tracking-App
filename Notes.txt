@@ -1,7 +1,0 @@
-//Create/Active Venv
-python -m venv env
-source env/bin/activate 
-
-//Migrate DB
-python manage.py makemigrations
-python manage.py migrate
