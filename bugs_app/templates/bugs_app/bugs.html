@@ -32,10 +32,14 @@
                 {% endfor %}
             </tbody>
         </table>
+        
         <div class="flex-container">
-            <button type="button" id="add-project" class="my-2 btn btn-outline-primary" onclick="openbugform(project.id)">add bug</button>
+            <a href="../addbug/{{project.id}}">
+                <button type="button" id="add-project" class="my-2 btn btn-outline-primary">add bug</button>
+            </a>
             
         </div>
     </div>
+   
 {% endblock %}
 

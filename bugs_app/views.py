@@ -3,6 +3,17 @@ from .models import Bug
 from projects_app.models import Project
 from .forms import AddBugForm
 
+# def test(request):
+#     id=1
+#     query_bugs = Bug.objects.filter(project_id=id)
+#     project = Project.objects.filter(id = id)[0]
+
+#     context = {
+#         'bugs_list': query_bugs,
+#         'project': project
+#     }
+#     return (request, 'bugs_app/bugs.html', context)
+
 def list_bugs(request,id):
     query_bugs = Bug.objects.filter(project_id=id)
     project = Project.objects.filter(id = id)[0]

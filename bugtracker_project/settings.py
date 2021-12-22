@@ -77,10 +77,8 @@ WSGI_APPLICATION = 'bugtracker_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'projects_app',
-        'USER': 'postgres',
-        'PASSWORD': 'kipchumba1995',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
         'HOST': 'localhost',
         'PORT': '',
         
