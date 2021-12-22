@@ -12,10 +12,11 @@
                 <th scope="col">Technology Used</th>
             </thead>
             <tbody>
+              
                 {% for project in projects %}
                     <tr>
                         <th scope="row"> {{forloop.counter}} </th>
-                        <td><a href="{% url 'home'  %}">{{project.name}}</a></td>
+                        <td><a href="/bug/{{ project.id }}/">{{project.name}}</a></td>
                         <td>{{project.organization_name}}</td>
                         <td>{{project.technology}}</td>
                     </tr>
