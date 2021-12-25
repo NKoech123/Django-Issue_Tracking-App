@@ -1,6 +1,8 @@
 ## Issue_Tracker
 # Project Introduction:
-This is an issue tracking django app still undergoing development. 
+This is an issue tracking django app still undergoing development. This application is intended to assist project members, with various dependent 
+teams/departments, in tracking and managing issues. 
+
 # Data Model:
 Since effective project planning is key to completing any project in time and under budget, I developed some data management
 and presentation functions.
