@@ -1,7 +1,7 @@
 ## Issue_Tracker
 # Project Introduction:
-This is an issue tracking django app still undergoing development. This application is intended to assist project members, with various dependent 
-teams/departments, in tracking and managing issues. 
+This is a simple issue tracking django app still undergoing development. This application is intended to assist project members, with various dependent 
+teams/departments, in tracking and managing issues. The application enabled me to practice CRUD functionalities
 
 # Data Model:
 Since effective project planning is key to completing any project in time and under budget, I developed some data management
@@ -20,4 +20,5 @@ Development was test-first approach
 1.) Able to assign an issue to someone
 2.) Notify people when an issue is assigned to them
 3.) Create datas to track when issue was added, due date 
+4.) Authentication
 
