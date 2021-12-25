@@ -21,4 +21,5 @@ Development was test-first approach
 2.) Notify people when an issue is assigned to them
 3.) Create datas to track when issue was added, due date 
 4.) Authentication
+5.) Simple chat app extension (Django channels)
 
