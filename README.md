@@ -9,7 +9,8 @@ and presentation functions.
   Users can:
            1)Create,read, update and delete both  projects and issues
            2.Open issues per project
-  Project's UML Diagram:
+           
+Project's UML Diagram(Figma):
 ![Issue_tracker App UML](https://user-images.githubusercontent.com/84946242/147383555-2295cc3e-2597-4ce6-8be7-73dbb5d7426e.jpg)
 
 # Testing:
