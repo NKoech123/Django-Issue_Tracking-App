@@ -12,6 +12,9 @@ and presentation functions.
   Project's UML Diagram:
 ![Issue_tracker App UML](https://user-images.githubusercontent.com/84946242/147383555-2295cc3e-2597-4ce6-8be7-73dbb5d7426e.jpg)
 
+# Testing:
+Development was test-first approach
+
 # To be added soon:
 1.) Able to assign an issue to someone
 2.) Notify people when an issue is assigned to them
