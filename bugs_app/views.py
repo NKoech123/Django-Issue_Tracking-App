@@ -24,10 +24,8 @@ def bug_add(request,project_id):
             bug = form.save(commit = False)
             bug.project_id = project
             bug.save()
-            a = reverse('bug_list', args=[project_id])
            
-            
-            return redirect(a)
+            return redirect( reverse('bug_list', args=[project_id]) )
             
     else:
         form = AddBugForm()

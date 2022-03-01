@@ -1,5 +1,8 @@
 .navbar{
-    background-color: rgb( 70, 67, 255 );
+    background-color: rgb(55, 5, 235);
+    height: 60px;
+    text-decoration:none;
+   
 }
 
 .navbar a{
