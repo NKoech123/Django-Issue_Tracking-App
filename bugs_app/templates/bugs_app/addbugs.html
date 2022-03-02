@@ -2,13 +2,15 @@
 {% block addbugform %}
 
     <div class="container">
-        <h1 class="display-4">Add Bug</h1>
+        <h1 class="display-4">Add New Issue</h1>
         <form class="mt-5" method="POST">
             {% csrf_token %}
+
             <div class="form-group">
-                <label for="project_name">Bug Name</label>
+                <label for="project_name">Issue Name</label>
                 {{ form.name }}
             </div>
+
             <div class="form-group">
                 <label for="description">Description</label>
                 {{ form.desc }}
@@ -30,6 +32,11 @@
         .container{
             background-color: whitesmoke;
         }
+
+        .form-group1{
+            width: 100px;
+        }
+       
 
 
     </style>

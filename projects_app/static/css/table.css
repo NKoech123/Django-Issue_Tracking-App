@@ -20,10 +20,11 @@
 
   
   .tablehead {
+    line-height: 30px;
     padding-top: 90px;
     padding-bottom: 100px;
     padding: 20;
     text-align: left;
-    background-color: #1c108a;
+    background-color: #1800f1bd;
     color: white;
   }
