@@ -13,7 +13,7 @@ and presentation functions.
 Project's UML Diagram(Figma):
 ![Issue_tracker App UML](https://user-images.githubusercontent.com/84946242/147383555-2295cc3e-2597-4ce6-8be7-73dbb5d7426e.jpg)
 
-# FrontEnd Figma Design:
+# Front End Figma Design:
 Coming soon. 
 
 # Testing:
