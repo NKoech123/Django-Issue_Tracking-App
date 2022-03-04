@@ -1,5 +1,5 @@
-## Issue_Tracker
-# Project Introduction:
+# Issue Tracker
+
 This is a simple issue tracking django app still undergoing development. This application is intended to assist project members, with various dependent 
 teams/departments, in tracking and managing issues. The application enabled me to practice CRUD functionalities
 
