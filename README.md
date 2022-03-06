@@ -17,7 +17,8 @@ Project's UML Diagram(Figma):
 Coming soon. 
 
 # Testing:
-Development was test-first approach
+-[Pytest](https://docs.pytest.org/en/7.0.x/contents.html#)
+
 
 # To be added soon:
 1.) Able to assign an issue to someone
