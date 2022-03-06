@@ -5,23 +5,24 @@
         <h1 class="display-4">Add New Issue</h1>
         <form class="mt-5" method="POST">
             {% csrf_token %}
+            <div class="form-group">
+                <div class="form-group1">
+                    <label for="project_name"  >Issue Name</label>
+                    {{ form.name }}
+                </div>
 
-            <div class="form-group">
-                <label for="project_name">Issue Name</label>
-                {{ form.name }}
-            </div>
-
-            <div class="form-group">
-                <label for="description">Description</label>
-                {{ form.desc }}
-            </div>
-            <div class="form-group">
-                <label for="priority">Priority</label>
-                {{ form.priority }}
-            </div>
-            <div class="form-group">
-                <label for="state">State</label>
-                {{ form.state }}
+                <div class="form-group2">
+                    <label for="description">Description</label>
+                    {{ form.desc }}
+                </div>
+                <div class="form-group3">
+                    <label for="priority">Priority</label>
+                    {{ form.priority }}
+                </div>
+                <div class="form-group4">
+                    <label for="state">State</label>
+                    {{ form.state }}
+                </div>
             </div>
             
             <button type="submit" class="btn btn-primary">Add Bug</button>
@@ -30,11 +31,23 @@
     
     <style>
         .container{
-            background-color: whitesmoke;
+            background-color: rgb(243, 240, 240);
+            
+
+        }
+        
+        .mt-5{
+            width: 100px;
+            height: 100vh;
+            margin-left:25px;
         }
 
-        .form-group1{
+        .form-group{
             width: 100px;
+            
+        }
+        .display-4 {
+            margin-left: 25px;
         }
        
 

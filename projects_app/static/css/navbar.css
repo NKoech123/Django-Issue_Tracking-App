@@ -7,11 +7,13 @@
 
 .navbar a{
     color: white;
+
 }
 
 .flex-container{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
 #add-project{
